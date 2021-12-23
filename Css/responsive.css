@@ -1,0 +1,31 @@
+@media (min-width:360px) and (max-width:640px) {
+.tourist-place {
+	margin-top: 20px;
+}
+.latest-content h3 {
+    font-size: 16px;
+    padding-top: 10px;
+}
+.places {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-top: 10px;
+}
+.trending-post h3:after {
+    border-bottom: 1px solid #00579c;
+    width: 297px;
+    position: absolute;
+    content: '';
+    left: 16px;
+    top: 36px;
+}
+.trending-post {
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 15px 0 rgba(0,0,0,.1);
+    -moz-box-shadow: 0 0 15px 0 rgba(0,0,0,.1);
+    box-shadow: 0 0 15px 0 rgba(0,0,0,.1);
+    border: 1px solid #ddd;
+    min-height: 274px;
+    margin-top: 20px;
+}
+}
